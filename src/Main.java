@@ -6,7 +6,7 @@ public class Main {
         float height = 1.87f;
         float weight = 98;
         int bodyMassIndex;
-        System.out.println("The height = " + height + " meters" + ", the weight = " + 98 + " kilograms");
+        System.out.println("The height = " + height + " meters" + ", the weight = " + weight + " kilograms");
 
 //Расчет индекса массы тела и вывод на консоль
         bodyMassIndex = index.calculate (height, weight);
